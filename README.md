@@ -1,15 +1,9 @@
-# Basic Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# NFT Game server
+This project based on basic Hardhat use case. It made of the game contract, a script that deploys that contract and a script to test the contract.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
+npx hardhat run scripts/run.js
 npx hardhat help
 ```
